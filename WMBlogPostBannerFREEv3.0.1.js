@@ -1,13 +1,13 @@
 /* ==========
-  Version 3.0.1
-  FREE Blog Banner Styles Plugin for Squarespace
+  Version 3
+  Blog Banner Plugin for Squarespace (Free)
   Copyright Will Myers 
 ========== */
 (function(){
   let $configEl = $('[data-wm-plugin="blog-post"]');
 
   function initBlogBanner() {
-      let cssFile = 'https://assets.codepen.io/3198845/WMBlogPostBannerFREEv3.0.1.css?v=1';
+      let cssFile = 'https://cdn.jsdelivr.net/gh/willmyethewebsiteguy/BlogPostBannerFree@3.1/blogbanner-styles.min.css';
       addCSSFileToHeader(cssFile);
       function addCSSFileToHeader(url){
         let head = document.getElementsByTagName('head')[0],
