@@ -7,7 +7,7 @@
   let $configEl = $('[data-wm-plugin="blog-post"]');
 
   function initBlogBanner() {
-      let cssFile = 'https://cdn.jsdelivr.net/gh/willmyethewebsiteguy/BlogPostBannerFree@3/blogbanner-styles.min.css?v=1';
+      let cssFile = 'https://cdn.jsdelivr.net/gh/willmyethewebsiteguy/BlogPostBannerFree@3/blogbanner-styles.min.css';
       addCSSFileToHeader(cssFile);
       function addCSSFileToHeader(url){
         let head = document.getElementsByTagName('head')[0],
