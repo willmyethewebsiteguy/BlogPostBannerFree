@@ -250,12 +250,14 @@
 
   /* init 7.1 */
   if (window.Static.SQUARESPACE_CONTEXT.templateVersion !== "7") {
-      if($configEl.length){
-        initBlogBanner();
-        if (window.self !== window.top){
-          watchEditMode();
-        }
+    let isCollection = !!document.querySelector('body[id*="collection"]');
+    if (isCollection) return;
+    if($configEl.length){
+      initBlogBanner();
+      if (window.self !== window.top){
+        watchEditMode();
       }
+    }
   } else {
     window.Squarespace.onInitialize(Y, function(){
       $configEl = $('[data-wm-plugin="blog-post"]');
