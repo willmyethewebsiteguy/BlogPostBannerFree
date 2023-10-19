@@ -391,10 +391,10 @@ main.container{
 }
 
 /* Updates for new SS Border Changes */
-.wm-banner-style-1:not(.sqs-edit-mode-active) .page-section.has-banner .section-border,
-.wm-banner-style-2:not(.sqs-edit-mode-active) .page-section.has-banner .section-border,
-.wm-banner-style-1:not(.sqs-edit-mode-active) .page-section.has-banner .section-divider,
-.wm-banner-style-2:not(.sqs-edit-mode-active) .page-section.has-banner .section-divider{
+.wm-banner-style-1:not(.sqs-edit-mode-active) .page-section.has-banner > .section-border,
+.wm-banner-style-2:not(.sqs-edit-mode-active) .page-section.has-banner > .section-border,
+.wm-banner-style-1:not(.sqs-edit-mode-active) .page-section.has-banner > .section-divider,
+.wm-banner-style-2:not(.sqs-edit-mode-active) .page-section.has-banner > .section-divider{
   position: relative;
   top: 0;
   width: 100%;
