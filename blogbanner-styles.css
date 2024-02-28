@@ -23,7 +23,7 @@ body {
 .has-banner .wm-blog-banner .section-background-content {
   position:relative;
 }
-.has-banner .content-wrapper{
+.has-banner > .content-wrapper{
   background-color: var(--section-background-color);
   z-index:1;
 }
