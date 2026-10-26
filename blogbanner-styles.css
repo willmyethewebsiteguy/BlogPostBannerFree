@@ -1,5 +1,5 @@
 /* ==========
-  Version 3
+  Version 3.1.6
   Blog Banner Styles Plugin for Squarespace
   Copyright Will Myers 
 ========== */
@@ -10,7 +10,8 @@ body {
   --section-background-color:white;
   --blog-glass-background:hsla(0,0%,0%,.27);
 }
-.tweak-wm-banner .content-collection.has-banner {
+.tweak-wm-banner .content-collection.has-banner,
+.tweak-wm-banner [data-sqsp-section="blog-item"].cdk-section.has-banner {
   flex-direction:column;
   padding-top:0px !important; 
 }
@@ -435,3 +436,12 @@ main.container{
   width: 100%;
   display: flex;
 }
+
+/* Squarespace component-based blog sections. */
+[data-sqsp-section="blog-item"].cdk-section.has-banner .sqs-section-background.wm-blog-banner {
+  position: relative !important;
+  inset: 0 !important;
+  pointer-events: auto !important;
+}
+.wm-blog-title-context { width: 100%; }
+.wm-banner-style-1 [data-sqsp-section="blog-item"].cdk-section.has-banner .blog-item-top-wrapper:not(.clone) { display: none; }
