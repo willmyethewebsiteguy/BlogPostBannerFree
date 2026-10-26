@@ -1,5 +1,5 @@
 /* ==========
-  Version 3
+  Version 3.1.6
   Blog Banner Plugin for Squarespace (Free)
   Copyright Will Myers 
 ========== */
